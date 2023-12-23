@@ -7,6 +7,7 @@ const cta = () => {
         <p className="cta-text mt-[-30px]">
             Let's get in touch!
             <br className="sm:block hidden" />
+            <br></br>
             Eager to explore joint opportunities!
         </p>
         <Link to="/contact" className="btn">

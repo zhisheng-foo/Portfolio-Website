@@ -13,7 +13,7 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Currently a sophomore majoring in Information System at the National University of Singapore.
-           Seeking to delve more into computer graphics in my upcoming semesters
+           Seeking to delve more into computer graphics in my upcoming semesters.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ const About = () => {
                   </div>
                    
                   </div>
-              ))};
+              ))}
         </div>
       </div>
       <div className="py-16">
