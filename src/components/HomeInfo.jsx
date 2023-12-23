@@ -21,13 +21,13 @@ const renderContent = {
             <br/>
             Currently a student studying in NUS Information System 🎓
             <br/>
-            <span className="font-semibold">Drag & Hold / Slide to start flying!</span>       
+            <span className="font-semibold">Take a look at my Portfolio!</span>       
             
         </h1>
     ),
     2 : (
         <InfoBox
-            text="Pretty much a peasant but i am still currently developing my own skills along the way"
+            text="Peasant but i am still currently developing my own skills along the way"
             link="/about"
             btnText="Learn More About Me"
         
