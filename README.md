@@ -25,7 +25,7 @@ To run this project locally:
 ## 3.Install dependencies:
   - npm install
 ## 4.Run the application:
-  -npm start
+  - npm start
   
 #Contribution
 Contributions to enhance this portfolio are welcome. Please follow these steps:
