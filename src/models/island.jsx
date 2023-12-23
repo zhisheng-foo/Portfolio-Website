@@ -44,14 +44,25 @@ const island = ({isRotating, setIsRotating, setCurrentStage, currentFocusPoint, 
     e.preventDefault();
   
     if (isRotating) {
-      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      let clientX;
+      let isTouchDevice = false;
+  
+      if (e.touches) {
+        clientX = e.touches[0].clientX;
+        isTouchDevice = true;
+      } else {
+        clientX = e.clientX;
+      }
+  
       const delta = (clientX - lastX.current) / viewport.width;
-      islandRef.current.rotation.y += delta * 0.01 * Math.PI;
+      const rotationFactor = isTouchDevice ? 0.02 : 0.01; // Increase this value for more sensitivity on touch devices
+      islandRef.current.rotation.y += delta * rotationFactor * Math.PI;
       lastX.current = clientX;
   
-      rotationSpeed.current = delta * 0.01 * Math.PI;
+      rotationSpeed.current = delta * rotationFactor * Math.PI;
     }
   };
+  
   
   const handleKeyDown = (e) => {
   
