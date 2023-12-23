@@ -15,7 +15,7 @@ This career portfolio is a personal website showcasing my professional journey, 
 - Styled Components: For styling individual components.
 - React Router: For navigation and routing within the application.
   
-#Installation and Setup
+# Installation and Setup
 To run this project locally:
 
 ## 1. Clone the repository:
