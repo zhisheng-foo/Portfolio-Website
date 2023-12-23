@@ -168,7 +168,7 @@ export const projects = [
         iconUrl: portfolio,
         theme: 'btn-back-red',
         name: 'Career Portfolio (this one!)',
-        description: 'Leveraged on React and Three js framework to craft an interactive career portfolio, showcasing professional milestones and projects with engaging 3D visualizations',
+        description: 'Leveraged on React and Three js framework to craft an interactive career portfolio, showcasing professional milestones and projects with engaging 3D visualizations.',
         link: 'https://github.com/zhisheng-foo/Portfolio-Website',
     },
     {
@@ -183,7 +183,7 @@ export const projects = [
         iconUrl: tiktok,
         theme: 'btn-back-blue',
         name: 'TikShop Connect',
-        description: 'Utilizing Ionic framework to implement TikShop Connect- a cutting-edge feature aimed at enhancing the TikTok shopping experience, resulting in improved user engagement and satisfaction',
+        description: 'Utilizing Ionic framework to implement TikShop Connect- a cutting-edge feature aimed at enhancing the TikTok shopping experience, resulting in improved user engagement and satisfaction.',
         link: 'https://devpost.com/software/tikshop-connect',
     },
     {
@@ -197,7 +197,7 @@ export const projects = [
         iconUrl: china,
         theme: 'btn-back-black',
         name: 'Volunteer Teaching Exchange Program to Beijing',
-        description: 'Volunteered in a 10-day teaching school trip to Beijing, providing English education to students at Dandelion High School',
+        description: 'Volunteered in a 10-day teaching school trip to Beijing, providing English education to students at Dandelion High School.',
         link: '',
     },
 
@@ -205,7 +205,7 @@ export const projects = [
         iconUrl: help,
         theme: 'btn-back-black',
         name: 'Project CPAS 2018',
-        description: 'Conducted monthly sensory stimulation sessions for students at Cerebral Palsy Alliance, focusing on the five human senses',
+        description: 'Conducted monthly sensory stimulation sessions for students at Cerebral Palsy Alliance, focusing on the five human senses.',
         link: '',
     },
   
