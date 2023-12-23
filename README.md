@@ -27,7 +27,7 @@ To run this project locally:
 ## 4.Run the application:
   - npm start
   
-#Contribution
+# Contribution
 Contributions to enhance this portfolio are welcome. Please follow these steps:
 
 1. Fork the repository.
