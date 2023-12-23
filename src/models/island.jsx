@@ -55,7 +55,7 @@ const island = ({isRotating, setIsRotating, setCurrentStage, currentFocusPoint, 
       }
   
       const delta = (clientX - lastX.current) / viewport.width;
-      const rotationFactor = isTouchDevice ? 1 : 0.01; // Increase this value for more sensitivity on touch devices
+      const rotationFactor = isTouchDevice ? 5 : 0.01; // Increase this value for more sensitivity on touch devices
       islandRef.current.rotation.y += delta * rotationFactor * Math.PI;
       lastX.current = clientX;
   
