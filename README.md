@@ -34,19 +34,14 @@ To get the portfolio running locally, follow these steps:
    ```bash
    git clone https://github.com/zhisheng-foo/Portfolio-Website.git
    ```
-
-2. **Navigate to the project directory**:
-   ```bash
-   cd Portfolio-Website
-   ```
-
-3. **Install dependencies**:
+   
+2. **Install dependencies**:
    This will install all the necessary dependencies for the project.
    ```bash
    npm install
    ```
 
-4. **Start the application in development mode** (if applicable):
+3. **Start the application in development mode** (if applicable):
    Some projects have a separate development mode with live reload.
    ```bash
    npm run dev
