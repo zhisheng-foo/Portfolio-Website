@@ -4,6 +4,8 @@
 
 Welcome to my Career Portfolio - a personal website that showcases my professional journey, skills, and projects. This portfolio is designed to offer an interactive and engaging user experience using advanced web technologies like React and Three.js.
 
+**Live Demo:** [Visit my portfolio](https://portfolio-website-two-sigma.vercel.app/)
+
 ![image](https://github.com/zhisheng-foo/Portfolio-Website/assets/105271950/0698f0a0-0e6f-4068-bf16-3634a17a5f1f)
 
 ---
