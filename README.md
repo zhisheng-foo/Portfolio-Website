@@ -51,8 +51,8 @@ To get the portfolio running locally, follow these steps:
    ```bash
    npm run dev
    ```
-
-Follow these instructions to set up the project on your local machine for development and testing purposes.
+  Follow these instructions to set up the project on your local machine for development and testing purposes.
+  
 ---
 ## Contributing
 
