@@ -14,6 +14,10 @@ import  sql  from "../../assets/icons/sql.svg";
 import  three  from "../../assets/icons/three.svg";
 import  tiktok  from "../../assets/icons/tiktok.svg";
 import  unity  from "../../assets/icons/unity.svg";
+import  task  from "../../assets/icons/task.png";
+import javascript from "../../assets/icons/javascript.svg";
+import ember from "../../assets/icons/ember.png";
+import postgres from "../../assets/icons/postgres.png";
 
 import {
 
@@ -61,32 +65,41 @@ export const skills = [
         name: "CSS",
         type: "FrontEnd",
     },
-
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "FrontEnd",
+    },
     {
         imageUrl: three,
         name: "three js",
         type: "FronEnd 3D objects",
     },
-
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
-
+    {
+        imageUrl: ember,
+        name: "Ember",
+        type: "Frontend",
+    },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
-    },
-
-    
+    },  
     {
         imageUrl: sql,
         name: "SQL",
         type: "Database",
     },
-
+    {
+        imageUrl: postgres,
+        name: "postgres",
+        type: "Database",
+    },
     {
         imageUrl: jakarta,
         name: "Jakarta EE",
@@ -115,9 +128,9 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "Decemeber 2022 - January 2023",
         points: [
-            "Collaborated with experienced advisors to conduct in-depth portfolio analysis and client discussions, contributing to enhancement of clients' financial positions",
-            "Crafted customized policies for clients from diverse backgrounds, enhancing satisfaction and retention",
-            "Completed the M9, M9A, M5, and HI CMFAS Examinations at SCI, attaining certification as an accredited Financial Advisor",
+            "Actively collaborated with seasoned advisors to perform comprehensive portfolio analysis and client consultations, significantly enhancing clients' financial positions through strategic advice and planning",
+            "Expertly designed and implemented personalized financial policies for clients from various backgrounds, resulting in increased client satisfaction and improved retention rates.",
+            "Successfully completed M9, M9A, M5, and HI examinations at the Singapore College of Insurance (SCI), achieving accreditation as a Certified Financial Advisor and demonstrating proficiency in financial regulations, insurance policies, and ethical advisory practices",
         ],
     },
     {
@@ -127,9 +140,9 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Apr 2021 - Apr 2022",
         points: [
-            "Facilitated the maintenance of software systems to streamline Officer VBS training",
-            "Managed logistical operations for Officer Training Programs.",
-            "Proficient in configuring multiple radio sets commonly employed in outfield settings.",
+            "Proactively facilitated the upkeep and optimization of software systems, streamlining the Virtual Battle Space (VBS) training for officers, thereby enhancing the efficiency and effectiveness of training modules.",
+            "Efficiently managed logistical operations for Officer Training Programs, overseeing resource allocation, scheduling, and coordination to ensure seamless program execution.",
+            "Demonstrated expertise in configuring and operating various radio sets, commonly used in outfield scenarios, ensuring reliable and effective communication in diverse field conditions.",
         ],
     },
     {
@@ -139,8 +152,8 @@ export const experiences = [
         iconBg: "#b7e4c7",
         date: "Feb 2019 - Apr 2019",
         points: [
-            "Provided dedicated support to the Ministry of Health's COVID Hotline during the pandemic, ensuring prompt and reliable assistance to the public",
-            "Demonstrated respect, friendliness and willingness to help, ensuring coherence of team",
+            "Offered dedicated and efficient support to the Ministry of Health's COVID-19 Hotline during the pandemic. Ensured prompt and reliable assistance to the public, addressing inquiries and concerns, and providing accurate information during a critical health crisis",
+            "Consistently demonstrated respect, friendliness, and a strong willingness to assist in team efforts. Contributed to maintaining team coherence and effectiveness, ensuring high-quality customer support and collaborative problem-solving.",
         ],
     },
 ];
@@ -164,6 +177,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: task,
+        theme: 'btn-back-orange',
+        name: 'Full-Stack Task Management Application System',
+        description: 'A sleek task management tool combining LoopBack 3.0, Ember.js, and PostgreSQL for efficient team and individual task tracking',
+        link: 'https://github.com/zhisheng-foo/Task-Management',
+    },
     {
         iconUrl: portfolio,
         theme: 'btn-back-red',
